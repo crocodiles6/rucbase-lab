@@ -33,6 +33,7 @@ void DiskManager::write_page(int fd, page_id_t page_no, const char *offset, int 
     // 注意write返回值与num_bytes不等时 throw InternalError("DiskManager::write_page Error");
     //init
     //为什么我修改的提交在github上显示是另一个账户提交的？？？
+    //在容器终端里修改了git邮箱和姓名配置，再提交一下试试？可能是镜像拉取时拉取了原镜像的git配置信息
 }
 
 /**
